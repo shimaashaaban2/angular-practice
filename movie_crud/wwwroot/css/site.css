@@ -1,0 +1,49 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+
+/* custome styles*/
+
+textarea {
+    resize: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.field-validation-error {
+    font-size: 14px;
+}
+
+
+.poster {
+    min-height: 236px;
+    background-position: center;
+    background-size: 100%;
+    transition: all 0.3s ease-in-out;
+}
+    .poster:hover {
+        background-size: 125%;
+        transition: all 0.3s ease-in-out;
+    }
